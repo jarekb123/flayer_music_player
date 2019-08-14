@@ -1,0 +1,31 @@
+name: flayer
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_audio_query:
+    git:
+      url: https://github.com/jarekb123/flutter_audio_query.git
+  kiwi: ^0.2.0
+  provider: ^3.0.0+1
+  flutter_hooks: ^0.6.0
+  functional_widget_annotation: ^0.5.1
+  equatable: ^0.4.0
+  rxdart: ^0.22.1+1
+  music_player: ^0.1.4
+  audioplayer: ^0.5.2
+  audio_service: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  functional_widget: ^0.7.1
+  build_runner: ^1.6.5
+
+flutter:
+  uses-material-design: true
